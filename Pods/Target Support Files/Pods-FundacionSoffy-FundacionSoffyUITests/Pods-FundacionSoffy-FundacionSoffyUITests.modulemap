@@ -1,0 +1,6 @@
+framework module Pods_FundacionSoffy_FundacionSoffyUITests {
+  umbrella header "Pods-FundacionSoffy-FundacionSoffyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

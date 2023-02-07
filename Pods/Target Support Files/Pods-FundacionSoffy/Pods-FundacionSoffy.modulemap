@@ -1,0 +1,6 @@
+framework module Pods_FundacionSoffy {
+  umbrella header "Pods-FundacionSoffy-umbrella.h"
+
+  export *
+  module * { export * }
+}

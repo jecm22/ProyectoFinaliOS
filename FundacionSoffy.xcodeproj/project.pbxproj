@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06636D442982DD78005871E6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06636D432982DD78005871E6 /* SettingsView.swift */; };
+		06636D462982DD96005871E6 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06636D452982DD96005871E6 /* AboutView.swift */; };
+		06636D482982DDDD005871E6 /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06636D472982DDDD005871E6 /* HealthView.swift */; };
+		06636D4A298328BB005871E6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06636D49298328BB005871E6 /* ErrorView.swift */; };
+		06B15A2D2981FA570090EBCA /* FundacionSoffy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06B15A2B2981FA570090EBCA /* FundacionSoffy.xcdatamodeld */; };
+		06B15A2F2981FA590090EBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B15A2E2981FA590090EBCA /* Assets.xcassets */; };
+		06B15A322981FA590090EBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06B15A302981FA590090EBCA /* LaunchScreen.storyboard */; };
+		06B15A582982018C0090EBCA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B15A572982018C0090EBCA /* LoginView.swift */; };
+		06B15A5A29823EAD0090EBCA /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B15A5929823EAD0090EBCA /* RegisterView.swift */; };
+		06B15A5C2982433A0090EBCA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B15A5B2982433A0090EBCA /* HomeView.swift */; };
+		06D6C3722985908400C43B8E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6C3712985908400C43B8E /* MenuView.swift */; };
+		06D6C3742985A3CE00C43B8E /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6C3732985A3CE00C43B8E /* CameraButton.swift */; };
+		06DF93C32984424900C87D73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DF93C22984424900C87D73 /* ContentView.swift */; };
+		06F43B6C2988792B00BD20AD /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F43B6B2988792B00BD20AD /* ContentViewModel.swift */; };
+		06F43B6E29887A9600BD20AD /* SoffyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F43B6D29887A9600BD20AD /* SoffyApp.swift */; };
+		06F43B74298881B900BD20AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F43B73298881B900BD20AD /* Main.storyboard */; };
+		7642DA007B7D4AB3B8518EA3 /* Pods_FundacionSoffy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD32B2897D33E097B0C65FAD /* Pods_FundacionSoffy.framework */; };
+		87221429298F048E00211D08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87221428298F048E00211D08 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06636D432982DD78005871E6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		06636D452982DD96005871E6 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		06636D472982DDDD005871E6 /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		06636D49298328BB005871E6 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		06B15A1F2981FA570090EBCA /* FundacionSoffy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FundacionSoffy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B15A2C2981FA570090EBCA /* FundacionSoffy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FundacionSoffy.xcdatamodel; sourceTree = "<group>"; };
+		06B15A2E2981FA590090EBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06B15A312981FA590090EBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06B15A332981FA590090EBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B15A572982018C0090EBCA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		06B15A5929823EAD0090EBCA /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		06B15A5B2982433A0090EBCA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		06D6C3712985908400C43B8E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		06D6C3732985A3CE00C43B8E /* CameraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
+		06DF93C22984424900C87D73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		06F43B672987F06400BD20AD /* FundacionSoffy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FundacionSoffy.entitlements; sourceTree = "<group>"; };
+		06F43B682987F08000BD20AD /* FundacionSoffyDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FundacionSoffyDebug.entitlements; sourceTree = "<group>"; };
+		06F43B6B2988792B00BD20AD /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		06F43B6D29887A9600BD20AD /* SoffyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoffyApp.swift; sourceTree = "<group>"; };
+		06F43B73298881B900BD20AD /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1C5CA767526B4213FC260B72 /* Pods-FundacionSoffy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FundacionSoffy.debug.xcconfig"; path = "Target Support Files/Pods-FundacionSoffy/Pods-FundacionSoffy.debug.xcconfig"; sourceTree = "<group>"; };
+		2BA391627D278E6541F4828C /* Pods-FundacionSoffy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FundacionSoffy.release.xcconfig"; path = "Target Support Files/Pods-FundacionSoffy/Pods-FundacionSoffy.release.xcconfig"; sourceTree = "<group>"; };
+		87221428298F048E00211D08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BD32B2897D33E097B0C65FAD /* Pods_FundacionSoffy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FundacionSoffy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06B15A1C2981FA570090EBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7642DA007B7D4AB3B8518EA3 /* Pods_FundacionSoffy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06B15A162981FA570090EBCA = {
+			isa = PBXGroup;
+			children = (
+				06B15A212981FA570090EBCA /* FundacionSoffy */,
+				06B15A202981FA570090EBCA /* Products */,
+				F4F5F868F8ACF9AA806E09EC /* Pods */,
+				A2D2D1A20F9E9F70E21068CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06B15A202981FA570090EBCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06B15A1F2981FA570090EBCA /* FundacionSoffy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06B15A212981FA570090EBCA /* FundacionSoffy */ = {
+			isa = PBXGroup;
+			children = (
+				06B15A572982018C0090EBCA /* LoginView.swift */,
+				06B15A2E2981FA590090EBCA /* Assets.xcassets */,
+				06B15A302981FA590090EBCA /* LaunchScreen.storyboard */,
+				06B15A332981FA590090EBCA /* Info.plist */,
+				87221428298F048E00211D08 /* GoogleService-Info.plist */,
+				06B15A2B2981FA570090EBCA /* FundacionSoffy.xcdatamodeld */,
+				06B15A5929823EAD0090EBCA /* RegisterView.swift */,
+				06B15A5B2982433A0090EBCA /* HomeView.swift */,
+				06636D432982DD78005871E6 /* SettingsView.swift */,
+				06636D49298328BB005871E6 /* ErrorView.swift */,
+				06636D452982DD96005871E6 /* AboutView.swift */,
+				06636D472982DDDD005871E6 /* HealthView.swift */,
+				06DF93C22984424900C87D73 /* ContentView.swift */,
+				06D6C3712985908400C43B8E /* MenuView.swift */,
+				06D6C3732985A3CE00C43B8E /* CameraButton.swift */,
+				06F43B672987F06400BD20AD /* FundacionSoffy.entitlements */,
+				06F43B682987F08000BD20AD /* FundacionSoffyDebug.entitlements */,
+				06F43B6B2988792B00BD20AD /* ContentViewModel.swift */,
+				06F43B6D29887A9600BD20AD /* SoffyApp.swift */,
+				06F43B73298881B900BD20AD /* Main.storyboard */,
+			);
+			path = FundacionSoffy;
+			sourceTree = "<group>";
+		};
+		A2D2D1A20F9E9F70E21068CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD32B2897D33E097B0C65FAD /* Pods_FundacionSoffy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4F5F868F8ACF9AA806E09EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C5CA767526B4213FC260B72 /* Pods-FundacionSoffy.debug.xcconfig */,
+				2BA391627D278E6541F4828C /* Pods-FundacionSoffy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06B15A1E2981FA570090EBCA /* FundacionSoffy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B15A4C2981FA590090EBCA /* Build configuration list for PBXNativeTarget "FundacionSoffy" */;
+			buildPhases = (
+				1F79459D303EAE31AE80E110 /* [CP] Check Pods Manifest.lock */,
+				06B15A1B2981FA570090EBCA /* Sources */,
+				06B15A1C2981FA570090EBCA /* Frameworks */,
+				06B15A1D2981FA570090EBCA /* Resources */,
+				A4F02DE7BB9E6C7672102244 /* [CP] Embed Pods Frameworks */,
+				50FDC052AE0F55EE8A67F0C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FundacionSoffy;
+			productName = FundacionSoffy;
+			productReference = 06B15A1F2981FA570090EBCA /* FundacionSoffy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06B15A172981FA570090EBCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					06B15A1E2981FA570090EBCA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 06B15A1A2981FA570090EBCA /* Build configuration list for PBXProject "FundacionSoffy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06B15A162981FA570090EBCA;
+			productRefGroup = 06B15A202981FA570090EBCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06B15A1E2981FA570090EBCA /* FundacionSoffy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06B15A1D2981FA570090EBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B15A322981FA590090EBCA /* LaunchScreen.storyboard in Resources */,
+				87221429298F048E00211D08 /* GoogleService-Info.plist in Resources */,
+				06B15A2F2981FA590090EBCA /* Assets.xcassets in Resources */,
+				06F43B74298881B900BD20AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F79459D303EAE31AE80E110 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FundacionSoffy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50FDC052AE0F55EE8A67F0C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FundacionSoffy/Pods-FundacionSoffy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FundacionSoffy/Pods-FundacionSoffy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FundacionSoffy/Pods-FundacionSoffy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F02DE7BB9E6C7672102244 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FundacionSoffy/Pods-FundacionSoffy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FundacionSoffy/Pods-FundacionSoffy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FundacionSoffy/Pods-FundacionSoffy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06B15A1B2981FA570090EBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F43B6E29887A9600BD20AD /* SoffyApp.swift in Sources */,
+				06D6C3742985A3CE00C43B8E /* CameraButton.swift in Sources */,
+				06636D442982DD78005871E6 /* SettingsView.swift in Sources */,
+				06DF93C32984424900C87D73 /* ContentView.swift in Sources */,
+				06B15A5C2982433A0090EBCA /* HomeView.swift in Sources */,
+				06B15A2D2981FA570090EBCA /* FundacionSoffy.xcdatamodeld in Sources */,
+				06636D462982DD96005871E6 /* AboutView.swift in Sources */,
+				06D6C3722985908400C43B8E /* MenuView.swift in Sources */,
+				06B15A5A29823EAD0090EBCA /* RegisterView.swift in Sources */,
+				06B15A582982018C0090EBCA /* LoginView.swift in Sources */,
+				06636D482982DDDD005871E6 /* HealthView.swift in Sources */,
+				06636D4A298328BB005871E6 /* ErrorView.swift in Sources */,
+				06F43B6C2988792B00BD20AD /* ContentViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06B15A302981FA590090EBCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06B15A312981FA590090EBCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06B15A4A2981FA590090EBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06B15A4B2981FA590090EBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06B15A4D2981FA590090EBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5CA767526B4213FC260B72 /* Pods-FundacionSoffy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FundacionSoffy/FundacionSoffyDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTPZXJ32C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FundacionSoffy/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jecm.FundacionSoffy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06B15A4E2981FA590090EBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA391627D278E6541F4828C /* Pods-FundacionSoffy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FundacionSoffy/FundacionSoffy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTPZXJ32C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FundacionSoffy/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jecm.FundacionSoffy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06B15A1A2981FA570090EBCA /* Build configuration list for PBXProject "FundacionSoffy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B15A4A2981FA590090EBCA /* Debug */,
+				06B15A4B2981FA590090EBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06B15A4C2981FA590090EBCA /* Build configuration list for PBXNativeTarget "FundacionSoffy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B15A4D2981FA590090EBCA /* Debug */,
+				06B15A4E2981FA590090EBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		06B15A2B2981FA570090EBCA /* FundacionSoffy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				06B15A2C2981FA570090EBCA /* FundacionSoffy.xcdatamodel */,
+			);
+			currentVersion = 06B15A2C2981FA570090EBCA /* FundacionSoffy.xcdatamodel */;
+			path = FundacionSoffy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 06B15A172981FA570090EBCA /* Project object */;
+}
